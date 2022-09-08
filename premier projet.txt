@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	int f;
+	float c;
+	printf("entre le valeur en  Fahrenheit ");
+	scanf("%d",&f);
+	 c = (f-32)/1.8;
+	 printf("degré Celsius est %.2f",c);
+	 if (c<1) {
+	 	printf("tres froid");
+} else if (c<=15) {
+	printf("froid");
+  
+} else if (c>=20){
+	printf("chaud");
+}
+else 
+printf("tre chaud");
+  
+
+
+	return 0;
+}

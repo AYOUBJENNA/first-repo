@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+		int x,y;
+	printf("entre le valeur de x");
+	scanf("%d",&x);
+	printf("entre le valeur de y");
+	scanf("%d",&y);
+	if (x<y) {
+  printf("x = %d  y=%d",y,x);
+} else  {
+	printf(" idetique");
+}
+	return 0;
+}
